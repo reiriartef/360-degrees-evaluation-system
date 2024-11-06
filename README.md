@@ -34,9 +34,11 @@ npm install
 
 Crea un archivo .env en la raíz del proyecto y define las siguientes variables de entorno:
 
+```env
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/nolatech_test
 JWT_SECRET=tuClaveSecretaParaJWT
+```
 
 ### 4. Ejecutar el Proyecto
 
@@ -53,6 +55,7 @@ El servidor se iniciará en http://localhost:5000. La documentación de la API e
 
 La estructura del proyecto sigue un enfoque modular para facilitar la escalabilidad y el mantenimiento.
 
+```
 ├── src
 │ ├── config # Configuración de Swagger y variables de entorno
 │ ├── controllers # Lógica de cada entidad (Employees, Evaluations, etc.)
@@ -62,3 +65,4 @@ La estructura del proyecto sigue un enfoque modular para facilitar la escalabili
 │ ├── tests # Pruebas de unidad e integración
 │ └── utils # Funciones auxiliares (ej. cálculo de puntajes)
 └── README.md # Documentación del proyecto
+```
