@@ -18,8 +18,8 @@ Este proyecto es una API RESTful para gestionar un sistema de evaluación 360 gr
 Clona el repositorio y navega a la carpeta del proyecto:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd <NOMBRE_DEL_REPOSITORIO>
+git clone https://github.com/reiriartef/360-degrees-evaluation-system.git
+cd 360-degrees-evaluation-system
 ```
 
 ### 2. Instalar Dependencias
